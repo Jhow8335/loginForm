@@ -1,0 +1,9 @@
+.form {
+  background-color:  #24221f;;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20% 10% ;
+  padding: 10% 20%;
+}

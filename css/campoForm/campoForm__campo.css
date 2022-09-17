@@ -1,0 +1,12 @@
+.campoForm__campo {
+  background-color: #24221f;
+  border: #afb6c2 1px solid;
+  border-radius: 5px;
+  color: #afb6c2;
+  margin: 5px 0;
+  padding: 8px;
+}
+
+.campoForm__campo:hover {
+  border: #FFC632 2px solid;
+}
