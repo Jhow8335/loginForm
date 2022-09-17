@@ -2,3 +2,10 @@
   background-color: #191816;
   width: 50%;
 }
+
+@media (max-width: 768px)
+{
+  .formulario {
+    width: 100vw;
+  }
+}

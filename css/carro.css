@@ -1,3 +1,10 @@
 .carro {
   width: 50%;
 }
+
+@media (max-width: 768px)
+{
+  .carro {
+    display: none;
+  }
+}
