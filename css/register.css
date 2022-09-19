@@ -1,0 +1,18 @@
+.register {
+  color: #FFC632;
+  font-size: 14px;
+  text-align: center;
+}
+
+.register__link {
+  color:#FFC632;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .register {
+    width: 445px;
+  }
+}

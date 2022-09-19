@@ -1,11 +1,130 @@
-.formulario {
-  background-color: #191816;
-  width: 50%;
+.form {
+  background-color:  #24221f;;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 17% 12%;
+  padding: 10% 20%;
+}
+
+.form__login {
+  display: flex;
+}
+
+.form__title {
+  color:  #d4ccb6;
+  font-size: 25px;
+  margin: 0; 
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+.form__paragraph {
+  font-size: 15px;
+  padding: 0 0 15px 0;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.formInput p {
+  padding: 5px 0;
+}
+
+.formInput__email {
+  display: flex;
+  align-items: center;
+  border: 2px solid #afb6c2;
+  padding: 5px;
+  border-radius: 5px;  
+}
+
+.formInput__email:hover {
+  border: 3px solid #FFC632;
+}
+
+.svg__email {
+  height: 29px;
+  width: 27px;
+  background-image: url('../img/mail.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 6px;
+  transition: all 0.3s;
+}
+
+.svg__email:hover {
+  background-image: url('../img/mail-focus.svg');
+}
+
+.formInput__password {
+  display: flex;
+  align-items: center;
+  border: 2px solid #afb6c2;
+  padding: 5px;
+  border-radius: 5px;  
+}
+
+.formInput__password:hover {
+  border: 3px solid #FFC632;
+}
+
+.svg__password {
+  height: 29px;
+  width: 27px;
+  background-image: url('../img/lock.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0 6px;
+  transition: all 0.3s;
+}
+
+.svg__password:hover {
+  background-image: url('../img/lock-focus.svg');
+}
+
+.formInput__field {
+  background-color: #24221f;
+  border: none;
+  border-radius: 5px;
+  color: #afb6c2;
+  margin: 5px 0;
+  padding: 8px;
+  width: 200px;
+}
+
+.form__button {
+  background-color: #FFC632;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 0;
+  padding: 10px;
+  text-transform: uppercase;
 }
 
 @media (max-width: 768px)
 {
-  .formulario {
+  .form {
     width: 100vw;
+    background-color: #191816;
+    padding: 10% 0;
+  }
+
+  .formInput {
+    width: 450px;
+  }
+
+  .form__button {
+    width: 450px;
+  }
+
+  .formInput__field { 
+    background-color: #191816;
   }
 }

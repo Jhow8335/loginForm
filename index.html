@@ -6,70 +6,74 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Formulário</title>
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/logo.css">
-  <link rel="stylesheet" href="css/principal.css">
+  <link rel="stylesheet" href="css/sectionMain.css">
+  <link rel="stylesheet" href="css/sectionForm.css">
   <link rel="stylesheet" href="css/formulario.css">
-  <link rel="stylesheet" href="css/form/form.css">
-  <link rel="stylesheet" href="css/form/form-login.css">
-  <link rel="stylesheet" href="css/form/form-titulo.css">
-  <link rel="stylesheet" href="css/form/form-paragrafo.css">
-  <link rel="stylesheet" href="css/campoForm/campoForm.css">
-  <link rel="stylesheet" href="css/campoForm/campoForm__campo.css">
-  <link rel="stylesheet" href="css/checkbox/checkbox.css">
-  <link rel="stylesheet" href="css/checkbox/checkbox-link.css">
-  <link rel="stylesheet" href="./css/botaoForm.css">
-  <link rel="stylesheet" href="css/registro/registro.css">
-  <link rel="stylesheet" href="css/registro/registro-link.css">
-  <link rel="stylesheet" href="css/carro.css">
-  <link rel="stylesheet" href=".css">
+  <link rel="stylesheet" href="css/checkbox.css">
+  <link rel="stylesheet" href="css/register.css">
+  <link rel="stylesheet" href="css/sectionCar.css">
 </head>
 
-<body>
+<body> 
   <header>
     <img class="logo" src="./img/logo.svg" alt="">
   </header>
 
-  <main class="principal">
-    <section class="formulario">
+  <main class="sectionMain">
+    <section class="sectionForm">
       <form class="form" action="">
 
         <div class="form__login">
           <img src="img/log-in.svg" alt="">
-          <h1 class="form__titulo">Faça seu login</h1>
+          <h1 class="form__title">Faça seu login</h1>
         </div>
-        <p class="form__paragrafo">Entre com suas informações de cadastro</p>
+        <p class="form__paragraph">Entre com suas informações de cadastro</p>
 
-        <div class="campoForm">
-          <label for="email">E-mail</label>
-          <input class="campoForm__campo" type="email" name="email" id="email" placeholder="Digite seu e-mail">
+        <div class="formInput">
+          <label for="email">
+            <p>E-mail</p>
+            <div class="formInput__email">
+              <div class="svg__email"></div>
+              <input class="formInput__field" type="email" name="email" id="email" placeholder="Digite seu e-mail">
+             </div>
+          </label>
         </div>
 
-        <div class="campoForm">
-          <label for="password">Senha</label>
-          <input class="campoForm__campo" type="password" name="password" id="password" placeholder="Digite sua senha">
+        <div class="formInput">
+          <label for="password">
+            <p>Senha</p>
+            <div class="formInput__password">
+              <div class="svg__password"></div>
+              <input class="formInput__field" type="password" id="password" placeholder="Digite sua senha">
+             </div>
+          </label>
         </div>
 
         <div class="checkbox">
-          <input type="checkbox" name="checkbox" id="checkbox">
-          <label for="checkbox">Lembre-me</label>
+          <div class="checbox__lembre">
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Lembre-me</label>
+          </div>
 
           <a class="checkbox__link" href="#">Esqueci minha senha</a>
         </div>
 
-        <button class="botaoForm">Entrar</button>
+        <button class="form__button">Entrar</button>
 
-        <div class="registro">
+        <div class="register">
           <span>Não tem uma conta?</span>
-          <a class="registro__link" href="#">Registre-se</a>
+          <a class="register__link" href="#">Registre-se</a>
         </div>
-
+        
       </form>  
     </section>
 
-    <section class="carro">
-      <img class="carro__img" src="img/side-image.jpg" alt="">
+    <section class="sectionCar">
+      <img class="car__img" src="img/side-image.jpg" alt="">
     </section>
 
   </main>
 </body>
 </html>
+
+

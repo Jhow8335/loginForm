@@ -1,0 +1,20 @@
+.checkbox {
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.checkbox__link {
+  color: #FFC632;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .checkbox {
+    width: 450px;
+  }
+}

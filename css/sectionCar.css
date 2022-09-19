@@ -1,0 +1,15 @@
+.sectionCar {
+  width: 50%;
+}
+
+.car__img {
+  height: 100vh;
+  width: 50vw;
+}
+
+@media (max-width: 768px)
+{
+  .car__img {
+    display: none;
+  }
+}
