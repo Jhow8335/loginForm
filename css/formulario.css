@@ -41,10 +41,11 @@
   border: 2px solid #afb6c2;
   padding: 5px;
   border-radius: 5px;  
+  outline: none;
 }
 
 .formInput__email:hover {
-  border: 3px solid #FFC632;
+  border: 2px solid #FFC632;
 }
 
 .svg__email {
@@ -70,7 +71,7 @@
 }
 
 .formInput__password:hover {
-  border: 3px solid #FFC632;
+  border: 2px solid #FFC632;
 }
 
 .svg__password {
@@ -95,6 +96,7 @@
   margin: 5px 0;
   padding: 8px;
   width: 200px;
+  outline: none;
 }
 
 .form__button {

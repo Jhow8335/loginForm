@@ -1,7 +1,7 @@
 .sectionForm {
   background-color: #191816;
-  width: 50%;
   height: 100vh;
+  width: 50%;
 }
 
 @media (max-width: 768px)
