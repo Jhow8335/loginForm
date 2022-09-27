@@ -9,7 +9,15 @@
 }
 
 .form__login {
+  align-items: center;
   display: flex;
+}
+
+.svg__log {
+  background-image: url('../img/log-in.svg');
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 22px;
 }
 
 .form__title {
@@ -36,12 +44,12 @@
 }
 
 .formInput__email {
-  display: flex;
   align-items: center;
   border: 2px solid #afb6c2;
-  padding: 5px;
   border-radius: 5px;  
+  display: flex;
   outline: none;
+  padding: 5px;
 }
 
 .formInput__email:hover {
@@ -75,13 +83,13 @@
 }
 
 .svg__password {
-  height: 29px;
-  width: 27px;
   background-image: url('../img/lock.svg');
   background-repeat: no-repeat;
   background-size: contain;
+  height: 29px;
   margin: 0 6px;
   transition: all 0.3s;
+  width: 27px;
 }
 
 .svg__password:hover {
@@ -113,9 +121,9 @@
 @media (max-width: 768px)
 {
   .form {
-    width: 100vw;
     background-color: #191816;
     padding: 10% 0;
+    width: 100vw;
   }
 
   .formInput {
